@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.pushpo.loginregistration3.Activity.UpdateActivity">
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:hint="@string/hint_name"
+        android:textColorHint="@color/colorTextHint"
+        android:layout_marginBottom="10dp"
+        />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:hint="@string/hint_email"
+        android:textColorHint="@color/colorTextHint"
+        android:layout_marginBottom="10dp"
+        />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:hint="@string/hint_password"
+        android:textColorHint="@color/colorTextHint"
+        android:layout_marginBottom="10dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/update"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:textColor="@color/colorText"/>
+        <Button
+            android:id="@+id/showUpdate"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Show Update"
+            android:textColor="@color/colorText"/>
+    </LinearLayout>
+
+</LinearLayout>
